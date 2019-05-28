@@ -2,55 +2,39 @@
     margin:0px;
     padding:0px;
 }
-.topnav{
-    /* background-color: lightslategray; */
-    height:30px;
-    padding:5px;
-    max-width:900px;
-    margin:auto;
-    /* display:flex; */
-}
+
 .one{
-    /* background-color:green; */
     display:flex;
+    justify-content:flex-start;
    }
    .two{
-    /* background-color:rgb(181, 181, 238); */
     display: flex;
     justify-content: flex-end;
 }
 .three{
-    /* background-color:rgb(171, 171, 245); */
     display: flex;
     justify-content: flex-end;
 }
  @media screen and  (max-width: 768px) {
     .one{
-        /* background-color:rgb(136, 116, 116); */
         justify-content: center;
     }
     .two{
-        /* background-color:blue; */
         justify-content: center;
     }
     .three{
-        /* background-color:blue; */
         justify-content: center;
     } 
  }
  @media screen and  (min-width: 768px) {
     .one{
-        /* background-color:rgb(148, 137, 137); */
-        display: flex;
-       
+        display: flex; 
     }
     .two{
-        /* background-color:rgb(99, 99, 150); */
         display: flex;
         justify-content: flex-end;
     }
     .three{
-        /* background-color:rgb(107, 107, 150); */
         display: flex;
         justify-content: flex-end;
     } 
@@ -59,32 +43,15 @@
         justify-content: center;
     }
  }
- .header{
-    /* background-color: lightslategray; */
-    /* position: relative; */
-    /* height:60px; */
-    padding:5px;
- max-width:900px;
-    margin:auto;
-    /* display: flex; */
-}
+ 
 .add{
-    /* position: relative; */
-     background-image:url("./waterfall.jpg"); 
-   /* opacity: ; */
-     height:200px;
- /* max-width:900px; */
- max-width:100%;
-    margin:auto; 
+     background-color:rgb(161, 156, 156);
 }
-.content{
-    margin:auto;
-    max-width:900px;
+ul li{
+    display:inline-block;
+    list-style:none;
 }
-.bar{
-    margin:auto;
-    max-width:900px;
-}
+
 .card{
     border: 1px solid rgb(66, 64, 64);
     box-shadow: 5px 3px 5px 5px grey;
@@ -93,14 +60,6 @@
     color:rgb(153, 150, 150);
     padding-left:5px;
 }
-/* h4.after:after {
-    content: "";
-    width: 50px;
-    border-bottom: 1px solid red;
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-} */
 
 
  
